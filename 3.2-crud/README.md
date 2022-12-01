@@ -4,4 +4,4 @@ docker build ./ --tag stockproducts
 
 Запуск контейнера
 
-docker run --name stockproducts -d -p 8765:8000 stockproducts
+docker run --name stockproducts -d -p 8000:8765 stockproducts
